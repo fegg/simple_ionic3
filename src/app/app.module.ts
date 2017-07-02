@@ -1,4 +1,3 @@
-import { PropertyService } from './../providers/property-service-mock';
 // Angular Imports
 import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -19,6 +18,7 @@ import { PropertyDetailComponent } from './../pages/property-detail/property-det
 import { PropertyListComponent } from './../pages/property-list/property-list.component';
 import { WelcomeComponent } from './../pages/welcome/welcome.component';
 import { BrokerService } from '../providers/broker-service-mock';
+import { PropertyService } from './../providers/property-service-mock';
 
 @NgModule({
     imports: [
