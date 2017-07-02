@@ -1,0 +1,7 @@
+.DS_Store
+Thumbs.db
+.vscode/
+npm-debug.log*
+
+.idea/
+node_modules/
