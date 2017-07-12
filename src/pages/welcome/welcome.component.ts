@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import echarts from '../../libs/echarts.common.min.js';
+
 @Component({
 	selector: 'welcome',
 	templateUrl: 'welcome.component.html'
@@ -7,5 +9,7 @@ import { Component, OnInit } from '@angular/core';
 
 export class WelcomeComponent implements OnInit {
 
-	ngOnInit() { }
+	ngOnInit() {
+		console.log(echarts);
+	}
 }
