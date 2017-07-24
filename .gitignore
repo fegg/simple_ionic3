@@ -2,6 +2,8 @@
 Thumbs.db
 .vscode/
 npm-debug.log*
-
+platforms/
+plugins/
 .idea/
 node_modules/
+www/
